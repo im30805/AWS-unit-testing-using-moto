@@ -1,0 +1,39 @@
+{
+    "tests": {
+        "test_AdminCreateSupplier":{
+            "test_check_supplier_return_exception": {
+                "merchantId": "00c20727-ecdf-4799-b834-4b725f8e79df",
+                "name": "Jojo's Bizzare Supplies"
+            },
+            "test_create_supplier": {
+                "merchantId": "00c20727-ecdf-4799-b834-4b725f8e79df",
+                "name": "Example Supplier",
+                "address": "234/22 Test Street",
+                "contact": "0198766543",
+                "email": "eg@egmail.com",
+                "contactName": "Mr Twister",
+                "country" : "Malaysia"
+            }
+        },
+        "test_AdminUpdateSupplier": {
+            "test_lambda_function_missing_arguments":{
+                "arguments": {
+                  
+                }
+            },    
+            "test_lambda_function":{
+                "arguments": {
+                    "supplierId": "000d6a93a-dd83-43b4-829d-c094918ef92d",
+                    "merchantId": "00c20727-ecdf-4799-b834-4b725f8e79df",
+                    "name": "Jojo's Bizzare Supplies",
+                    "address": "91, 123 Wryyy Street, Joestar Estate",
+                    "contact" : "0123456798",
+                    "email": "jjbs@example.com",
+                    "contactName": "Jojo",
+                    "country": "Singapore"
+                }
+            }
+        }
+    }
+        
+}  
